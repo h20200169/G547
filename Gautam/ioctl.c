@@ -125,9 +125,9 @@ int range_setting(int file_desc, u8 range_variable)
 
 int main()
 {
-    int file_desc, ret_val, offset=48;//offset is used to get the symbol equivalent 
+    int file_desc; 
     int msg=64;
-    //msg = CONFIG_PARAM + offset; //getting the ASCII code for 
+   
 
     file_desc = open(DEVICE_FILE_NAME, 0);
     if (file_desc < 0) {
