@@ -15,7 +15,7 @@
 #include "chardev.h"              
 
 typedef unsigned char		u8;
-#define DEVICE_NAME "adxl"	//name of device in dev directory
+#define DEVICE_NAME "adxl_file"	//name of device in dev directory
 #define MAJOR_NO 115		//major number of device
 
 
